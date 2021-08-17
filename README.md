@@ -1,4 +1,4 @@
-# TASK-APP
+# TASKITO
 
 This is a Task-Manager REST API.Where user can maitain the list of its day to day work.
 
