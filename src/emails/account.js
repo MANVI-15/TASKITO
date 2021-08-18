@@ -1,5 +1,5 @@
 const sgmail=require('@sendgrid/mail')
-const sendgridAPIkey='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' 
+const sendgridAPIkey='__API_KEY______' 
 
 sgmail.setApiKey(sendgridAPIkey); //to tell the send grid that we want to work with the given API passed as argument
 
