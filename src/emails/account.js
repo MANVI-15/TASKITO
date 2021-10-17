@@ -8,7 +8,7 @@ const sendWelcomeemail=(email,name)=>{
     
     sgmail.send({
     to:email,
-    from:'manvi.jiit@gmail.com',
+    from:'email_id',
     subject:'Thanks for joining in!',
     text:`Welcome to the app, ${name}.Let me know how you get along with the app`  
 })
@@ -18,7 +18,7 @@ const sendWelcomeemail=(email,name)=>{
 const sendCancellationemail=(email,name)=>{
     sgmail.send({
         to:email,
-        from:'manvi.jiit@gmail.com',
+        from:'emial_id',
         subject:'Sorry to see you go!',
         text:`Why you cancelled the registration, ${name}.Let me know how we can improve`
     })
@@ -27,7 +27,7 @@ const sendCancellationemail=(email,name)=>{
 const sendmail=(email,tasks)=>{
    sgmail.send({
      to:email,
-     from:'manvi.jiit@gmail.com',
+     from:'email_id',
      subject:'List of incomplete tasks',
      html:`
     <html>
